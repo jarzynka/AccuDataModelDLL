@@ -42,8 +42,8 @@ namespace AccuWeatherData
     /// </summary>
     public class AccuMetricImperialData
     {
-        AccuValUnitType Metric { get; set; }
-        AccuValUnitType Imperial { get; set; }
+        public AccuValUnitType Metric { get; set; }
+        public AccuValUnitType Imperial { get; set; }
 
     }
 
@@ -57,14 +57,14 @@ namespace AccuWeatherData
         /// <summary>
         /// The wind speed value, units and UnitType index
         /// </summary>
-        AccuValUnitType Speed { get; set; }
+        public AccuValUnitType Speed { get; set; }
         
         /// <summary>
         /// The wind direction in compass degrees,
         /// cardinal text (localized to native language)
         /// cardinal text (in English)
         /// </summary>
-        WindDirection Direction { get; set; }
+        public WindDirection Direction { get; set; }
     }
 
     /// <summary>
