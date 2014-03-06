@@ -40,6 +40,7 @@
     <Compile Include="AccuDaypartForecastPointDataJSON.cs" />
     <Compile Include="AccuGenericPointDataElements.cs" />
     <Compile Include="AccuHourlyForecastPointDataJSON.cs" />
+    <Compile Include="AccuLocationServiceModelJSON.cs" />
     <Compile Include="AccuWeatherDataEnums.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
