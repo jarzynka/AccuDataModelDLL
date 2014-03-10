@@ -63,14 +63,14 @@ namespace AccuWeatherData
         /// Datetime that the headline period ends
         /// displayed in ISO8601 format: yyyy-mm-ddThh:mm:ss±hh:mm
         /// </summary>
-        public DateTime EndDate { get; set; }
+        public DateTime? EndDate { get; set; }
 
         /// <summary>
         /// Effective datetime when the headline period ends
         /// displayed as the number of seconds
         /// that have elapsed since January 1, 1970 (midnight UTC/GMT)
         /// </summary>
-        public long EpochEndDate { get; set; }
+        public long? EpochEndDate { get; set; }
     }
 
     /// <summary>
